@@ -1,0 +1,51 @@
+body{
+  margin-top: 20px;
+  width: 600px;
+  margin-left: 20px;
+  height: 400px;
+}
+#container {
+  width: 500px;
+  height: fit-content;
+  display: flex;
+}
+
+#add {
+  width: fit-content;
+  height: 200px;
+  padding-right: 25px;
+  margin-right: 25px;
+  border-right: 2px solid black;
+}
+
+#search {
+  width: fit-content;
+  height: 200px;
+}
+
+.search-label {
+  font-weight: bold;
+}
+
+.details {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.updated-details {
+  font-weight: normal;
+  font-size: 1.2em;
+}
+.search{
+  position: relative;
+  left: 230px;
+  bottom: 36px;
+}
+.edit{
+  position: absolute;
+}
+.delete{
+  position: absolute;
+  bottom: 147px;
+  right: 40px;
+}

@@ -1,0 +1,25 @@
+{
+  "name":"Chrome Extension",
+  "description":"You can now interact with updated data of contacts in CRM",
+  "version":"0.1.0",
+  "manifest_version":2,
+  "author":"Priyadharshini Venkatesan",
+"icons":{
+  "24":"./user.png"
+},
+"background":{
+  "scripts":["./background.js"]
+},
+"options_page":"./options.html",
+"browser_action":{
+  "default_popup":"popup.html"
+},
+"permissions":[
+  "tabs",
+  "https://www.google.com/*",
+  "storage",
+  "notifications",
+  "http://*/",
+  "https://*/"
+]
+}
